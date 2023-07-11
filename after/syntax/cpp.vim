@@ -9,4 +9,4 @@ syntax include @SQL syntax/sql.vim
 let b:current_syntax = saved_syntax
 unlet! saved_syntax
 
-syntax region sqlSnippet matchgroup=cppRawStringDelimiter start=/R"(-sql/ end=/)";/ contains=@SQL keepend
+syntax region sqlSnippet matchgroup=cppRawStringDelimiter start=/R"(--sql/ end=/)";/ contains=@SQL keepend
