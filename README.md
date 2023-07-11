@@ -1,5 +1,5 @@
 # Vim SQL Strings
-Syntax highlight multi-line strings in various languages if they start with `--sql`
+Syntax highlight multi-line strings in various languages as SQL if they start with `--sql`
 
 ## Install
 Install with [vim-plug](junegunn/vim-plug):
